@@ -1,0 +1,159 @@
+body {
+  background-color: lightblue; /*color*/
+  /*font-name: "helvetica", "Times New Roman", serif;*/
+  /* font-family: TimesNewRoman, Times New Roman,
+  Times, Baskerville, Georgia, serif; */
+  font-size: 50px;
+}
+
+
+/* H E A D E R */
+header {
+  display: flex;
+  background-color: blue; /*color*/
+}
+.cv_container{
+  width: 50%;
+}
+.graphiste_container{
+  width: 50%;
+}
+
+.left{
+  text-align: start;
+}
+.right{
+  text-align: end;
+}
+#graphiste{
+  text-align: end;
+  width: 100%;
+}
+
+/*graphiste_container*/
+h1 #graphiste{
+  border: 3px solid gray;
+  /*width: 50%;*/
+
+}
+/* B E L L Y */
+a{
+  text-decoration: none;
+}
+/*centre le contenue texte dans tous les éléments classe accordeon*/
+.accordeon section li{
+  display: none;
+  text-align: center;
+  color: black;
+}
+.datum{
+  /*display: none; */
+  text-align: center;
+  color: black;
+}
+.datum :target li{
+  display: block;
+  text-align: center;
+  color: black;
+}
+
+.accordeon section:target li{
+  display: block;
+  text-align: center;
+  color: black;
+}
+.accordeon section a{
+  text-align: center;
+  color: black;
+  text-decoration:none;
+}
+.accordeon section a :hover{
+  text-align: center;
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+.colcomp{
+  display: flex;
+  flex-grow: 1;*/
+  /*justify-content: space-evenly;*/
+  /*width: 50%;*/
+  flex-wrap: wrap;
+}
+.col1 {
+  width: 50%;
+}
+.col2 {
+  width: 50%;
+}
+
+#competence {
+  text-align: center;
+}
+ul{
+  text-align: left;
+  /*display: grid;*/
+  grid-column: auto;columns: 2
+  flex-basis: 50%
+  flex-wrap: wrap;
+  border: 3px solid yellow;  /*color*/
+}
+
+li{
+  font-weight: normal;
+  font-size: .8em;
+}
+.texte langues {
+  text-align: left;
+}
+#experience{
+  text-align: center;
+}
+
+#formation{
+  text-align: center;
+}
+
+#langues{
+  text-align: center;
+}
+
+#logiciel{
+  text-align: center;
+}
+/* F O O O T E R */
+
+h1 {
+  border: 3px solid gray; /*color*/
+  width: 50%;
+}
+h2{
+  border: 3px solid red; /*color*/
+  width: 50%;
+}
+
+address{
+  display: flex;
+  font-style: normal;
+}
+footer {
+  display: block;
+  background-color: pink; /*color*/
+  /*text-align: left;*/
+  color: black;
+}
+
+/* width 50% de la taille du parent*/
+div{
+  border: 3px solid black; /*color*/
+
+}
+/*------@import url(//db.onlinewebfonts.com/c/8d19576338665e15f08e11f4b56d2459?family=Times+New+Roman);
+/*POUR UNE RAISON INCONNU IL N'Y A PAS LA FONT
+TIMES DANS LE NAVIGATEUR*/
+/*---@font-face {
+  font-family: "Times New Roman";
+  src: url("//db.onlinewebfonts.com/t/8d19576338665e15f08e11f4b56d2459.eot");
+  src: url("//db.onlinewebfonts.com/t/8d19576338665e15f08e11f4b56d2459.eot?#iefix")
+  format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8d19576338665e15f08e11f4b56d2459.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8d19576338665e15f08e11f4b56d2459.woff") format("woff"), url("//db.onlinewebfonts.com/t/8d19576338665e15f08e11f4b56d2459.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8d19576338665e15f08e11f4b56d2459.svg#Times New Roman") format("svg");
+}*--/
